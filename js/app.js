@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function(){
             if (result.isConfirmed) {
               resetForm();
               Swal.fire({
-                position: 'top-center',
+                position: 'center',
                 icon: 'success',
                 title: 'Formulario Reiniciado',
                 showConfirmButton: false,
